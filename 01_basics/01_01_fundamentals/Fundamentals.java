@@ -8,12 +8,10 @@ public class Fundamentals {
 
     public static void main(String[] args) {
         // User input
-        // Scanner scanner = new Scanner(System.in);
-        // System.out.print("Enter your name: ");
-        // String name = scanner.nextLine();
-        // scanner.close();
-
-        String name = "Saurabh";
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter your name: ");
+        String name = scanner.nextLine();
+        scanner.close();
 
         // Output
         System.out.println("Hello, " + name + "!");
@@ -28,6 +26,12 @@ public class Fundamentals {
             System.out.println(name + " is an adult.");
         } else {
             System.out.println(name + " is a minor.");
+        }
+
+        if (height >= 4) {
+            System.out.println(height + " is more than or equal to 4.");
+        } else {
+            System.out.println(height + " is less than 4.");
         }
 
         // Switch Statement
@@ -56,7 +60,7 @@ public class Fundamentals {
         }
 
         // Arrays
-        int[] numbers = {1, 2, 3, 4, 5};
+        int[] numbers = { 1, 2, 3, 4, 5 };
         System.out.println("Array elements:");
         for (int num : numbers) {
             System.out.println(num);
@@ -69,9 +73,11 @@ public class Fundamentals {
         System.out.println("Substring: " + greeting.substring(0, 5));
 
         // Pointers (Java doesn't have pointers like C/C++)
-        // However, you can consider references in Java as somewhat similar to pointers in other languages.
+        // However, you can consider references in Java as somewhat similar to pointers
+        // in other languages.
 
-        // Dynamic Memory Allocation (Java handles memory automatically, no need for explicit allocation)
+        // Dynamic Memory Allocation (Java handles memory automatically, no need for
+        // explicit allocation)
 
         // Pass by Value vs Pass by Reference
         int number = 10;
@@ -79,7 +85,7 @@ public class Fundamentals {
         modifyValue(number); // Pass by value
         System.out.println("Value after modification (pass by value): " + number);
 
-        int[] arr = {1, 2, 3};
+        int[] arr = { 1, 2, 3 };
         System.out.println("Array after modification (pass by reference):");
         for (int num : arr) {
             System.out.print(num + " ");
@@ -100,15 +106,18 @@ public class Fundamentals {
         char charAtIndex = str1.charAt(7); // Returns 'W'
         System.out.println("Character at index 7: " + charAtIndex);
 
-        // Example 3: substring(int beginIndex) - Returns a substring from the specified index to the end
+        // Example 3: substring(int beginIndex) - Returns a substring from the specified
+        // index to the end
         String substring1 = str1.substring(7); // Returns "World!"
         System.out.println("Substring from index 7: " + substring1);
 
-        // Example 4: substring(int beginIndex, int endIndex) - Returns a substring from beginIndex to endIndex-1
+        // Example 4: substring(int beginIndex, int endIndex) - Returns a substring from
+        // beginIndex to endIndex-1
         String substring2 = str1.substring(0, 5); // Returns "Hello"
         System.out.println("Substring from index 0 to 5: " + substring2);
 
-        // Example 5: concat(String str) - Concatenates the specified string to the end of this string
+        // Example 5: concat(String str) - Concatenates the specified string to the end
+        // of this string
         String str2 = " How are you?";
         String concatString = str1.concat(str2); // Returns "Hello, World! How are you?"
         System.out.println("Concatenated string: " + concatString);
@@ -121,23 +130,28 @@ public class Fundamentals {
         String lowerCaseStr = str1.toLowerCase(); // Returns "hello, world!"
         System.out.println("Lowercase string: " + lowerCaseStr);
 
-        // Example 8: replace(char oldChar, char newChar) - Replaces all occurrences of specified oldChar with newChar
+        // Example 8: replace(char oldChar, char newChar) - Replaces all occurrences of
+        // specified oldChar with newChar
         String replacedStr = str1.replace('o', '0'); // Returns "Hell0, W0rld!"
         System.out.println("Replaced string: " + replacedStr);
 
-        // Example 9: indexOf(String str) - Returns the index within this string of the first occurrence of the specified substring
+        // Example 9: indexOf(String str) - Returns the index within this string of the
+        // first occurrence of the specified substring
         int index = str1.indexOf("World"); // Returns 7
         System.out.println("Index of 'World': " + index);
 
-        // Example 10: contains(CharSequence sequence) - Returns true if the string contains the specified sequence of characters
+        // Example 10: contains(CharSequence sequence) - Returns true if the string
+        // contains the specified sequence of characters
         boolean contains = str1.contains("World"); // Returns true
         System.out.println("Does str1 contain 'World'? " + contains);
 
-        // Example 11: startsWith(String prefix) - Returns true if the string starts with the specified prefix
+        // Example 11: startsWith(String prefix) - Returns true if the string starts
+        // with the specified prefix
         boolean startsWith = str1.startsWith("Hello"); // Returns true
         System.out.println("Does str1 start with 'Hello'? " + startsWith);
 
-        // Example 12: endsWith(String suffix) - Returns true if the string ends with the specified suffix
+        // Example 12: endsWith(String suffix) - Returns true if the string ends with
+        // the specified suffix
         boolean endsWith = str1.endsWith("!"); // Returns true
         System.out.println("Does str1 end with '!'? " + endsWith);
 
@@ -145,8 +159,9 @@ public class Fundamentals {
         Dog myDog = new Dog("Buddy");
 
         // Calling methods (Polymorphism)
-        myDog.makeSound(); // Polymorphism: Even though the reference type is Animal, it calls Dog's makeSound
-        myDog.fetch();     // Using Dog's specific method
+        myDog.makeSound(); // Polymorphism: Even though the reference type is Animal, it calls Dog's
+                           // makeSound
+        myDog.fetch(); // Using Dog's specific method
 
         // Creating an object of the Animal class (Object Creation)
         Animal myAnimal = new Animal("Lion");
@@ -283,7 +298,8 @@ class Dog extends Animal {
         System.out.println(super.getName() + " barks"); // Outputs the sound a dog makes
     }
 
-    // Additional method specific to Dog class - Demonstrates inheritance and encapsulation
+    // Additional method specific to Dog class - Demonstrates inheritance and
+    // encapsulation
     public void fetch() {
         System.out.println("Fetching the ball"); // Outputs action specific to a Dog
     }
