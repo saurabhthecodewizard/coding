@@ -1,11 +1,7 @@
-def reverseNumber(n: int):
-    num = n
-    reverse = 0
-    while num != 0:
-        digit = num % 10
-        reverse = reverse * 10 + digit
-        num = num // 10
-    return reverse
+def reverseNumber(x: int):
+    sign = 1 if x > 0 else -1
+    reverse = sign * int(str(abs(x))[::-1])
+    return reverse if -2**31 < reverse < 2**31 else 0
 
 number = 1234
 print(f"Reverse of {number} is {reverseNumber(number)}")

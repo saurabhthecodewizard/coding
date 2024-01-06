@@ -5,15 +5,21 @@ public class Reverse {
         System.out.println("Reverse of number " + n + " is " + reverse(n));
     }
 
-    private static int reverse(int n) {
-        int num = n;
-        int reverse = 0;
-
-        while (num > 0) {
-            reverse = reverse * 10 + (num % 10);
-            num /= 10;
+    private static int reverse(int x) {
+        long finalNum = 0;
+        while (x != 0) {
+            int lastDig = x % 10;
+            finalNum += lastDig;
+            finalNum = finalNum * 10;
+            x = x / 10;
         }
-
-        return reverse;
+        finalNum = finalNum / 10;
+        if (finalNum > Integer.MAX_VALUE || finalNum < Integer.MIN_VALUE) {
+            return 0;
+        }
+        if (x < 0) {
+            return (int) (-1 * finalNum);
+        }
+        return (int) finalNum;
     }
 }
