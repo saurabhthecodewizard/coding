@@ -1,16 +1,17 @@
 # Problem Name 
-Print name n times
+Print numbers from 1 to n
 
 ## Problem Description
 
-Given a number n, print the name n times.
+Given a number n, print 1 to n numbers.
 
 ## Example 1:
 ```
 Input: 5
 Output:-
-Name
-Name
-Name
-Name
+1
+2
+3
+4
+5
 ```
