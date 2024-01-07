@@ -10,6 +10,12 @@ F(n) = F(n - 1) + F(n - 2), for n > 1.
 
 Given n, calculate F(n).
 
+## Time Complexity
+O(n)
+
+## Space Complexity
+O(1)
+
 ## Example 1:
 ```
 Input: n = 2

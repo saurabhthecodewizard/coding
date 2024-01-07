@@ -5,6 +5,12 @@ Count Numbers
 
 Given an integer N, write a program to count the number of digits in N.
 
+## Time Complexity
+O(n)
+
+## Space Complexity
+O(1)
+
 ## Example 1:
 ```
 Input: N = 12345

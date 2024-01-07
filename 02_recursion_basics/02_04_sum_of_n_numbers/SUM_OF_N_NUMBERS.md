@@ -5,6 +5,12 @@ Sum of n numbers
 
 Given a number ‘N’, find out the sum of the first N natural numbers.
 
+## Time Complexity
+O(n)
+
+## Space Complexity
+O(1)
+
 ## Example 1:
 ```
 Input: N=5

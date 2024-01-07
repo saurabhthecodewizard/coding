@@ -5,6 +5,14 @@ Merge Sort
 
 Given an array of N integers, write a program to implement the Merge sorting algorithm.
 
+## Time Complexity
+O(n log n) 
+Reason: At each step, we divide the whole array, for that log n and we assume n steps are taken to get sorted array, so overall time complexity will be nlogn
+
+## Space Complexity
+O(n)
+Auxiliary Space Complexity: O(n)
+
 ## Example 1:
 ```
 Input: N = 6, array[] = {13,46,24,52,20,9}

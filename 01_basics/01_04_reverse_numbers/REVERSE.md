@@ -7,6 +7,12 @@ Given a signed 32-bit integer x, return x with its digits reversed. If reversing
 
 Assume the environment does not allow you to store 64-bit integers (signed or unsigned).
 
+## Time Complexity
+O(n)
+
+## Space Complexity
+O(1)
+
 ## Example 1:
 ```
 Input: N = 123

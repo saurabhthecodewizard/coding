@@ -5,6 +5,12 @@ Count frequency of each element in the array
 
 Given an array, we have found the number of occurrences of each element in the array. 
 
+## Time Complexity
+O(n)
+
+## Space Complexity
+O(n)
+
 ## Example 1:
 ```
 Input: arr[] = {10,5,10,15,10,5};

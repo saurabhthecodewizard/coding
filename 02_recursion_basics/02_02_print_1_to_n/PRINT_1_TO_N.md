@@ -5,6 +5,12 @@ Print numbers from 1 to n
 
 Given a number n, print 1 to n numbers.
 
+## Time Complexity
+O(n)
+
+## Space Complexity
+O(1)
+
 ## Example 1:
 ```
 Input: 5

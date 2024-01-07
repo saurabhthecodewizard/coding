@@ -5,6 +5,12 @@ Armstrong Number
 
 Given a number, check if it is Armstrong Number or Not.
 
+## Time Complexity
+O(n) where n is the number of digits since we need to traverse every digit and add digits raised to power no. of digits to sum.
+
+## Space Complexity
+O(1) since no extra space is required
+
 ## Example 1:
 ```
 Input:153 

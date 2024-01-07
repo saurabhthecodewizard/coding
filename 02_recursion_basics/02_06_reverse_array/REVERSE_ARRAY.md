@@ -5,6 +5,11 @@ Reverse Array
 
 You are given an array. The task is to reverse the array and print it. 
 
+## Time Complexity
+O(n / 2)
+
+## Space Complexity
+O(1)
 
 ## Example 1:
 ```

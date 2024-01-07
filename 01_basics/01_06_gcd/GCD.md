@@ -5,6 +5,12 @@ GCD
 
 Find the Greatest Common Divisor of two numbers.
 
+## Time Complexity
+O(log ɸ min(a,b)), where ɸ is 1.61.
+
+## Space Complexity
+O(1)
+
 ## Example 1:
 ```
 Input: num1 = 4, num2 = 8

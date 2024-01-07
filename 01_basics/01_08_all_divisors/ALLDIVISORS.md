@@ -5,6 +5,11 @@ All Divisors
 
 Given a number, print all the divisors of the number. A divisor is a number that gives the remainder as zero when divided.
 
+## Time Complexity
+O(sqrt(n)), because every time the loop runs only sqrt(n) times.
+
+## Space Complexity
+O(1), we are not using any extra space.
 
 ## Example 1:
 ```
