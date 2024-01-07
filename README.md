@@ -13,14 +13,14 @@ Welcome to the Data Structures and Algorithms! This repository aims to provide a
 
 ## Introduction
 
-The tech industry has a rigorous interview process, often requiring candidates to solve algorithmic and data structure problems. This repository contains a curated list of coding questions frequently asked in technical interviews. For each question, you'll find:
+The tech industry has a rigorous requirement of problem solving capabilities, often requiring candidates to solve algorithmic and data structure problems. This repository contains a curated list of coding questions. For each question, you'll find:
 
 - Problem statement
 - Solution(s)
 - Time and space complexity analysis
 - Test cases
 
-Feel free to use this repository as a resource for interview preparation.
+Feel free to use this repository as a resource.
 
 ## Languages Covered
 
