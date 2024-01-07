@@ -1,6 +1,6 @@
-# Coding Interview Questions Repository
+# Data Structures and Algorithms
 
-Welcome to the Coding Interview Questions Repository! This repository aims to provide a structured collection of coding interview questions and solutions to help you prepare for technical interviews at various companies.
+Welcome to the Data Structures and Algorithms! This repository aims to provide a structured collection of data structures and algorithms questions and solutions to help.
 
 ## Table of Contents
 
