@@ -1,5 +1,5 @@
 # Problem Name 
-Valid Palindrome - [Leetcode - 125](https://leetcode.com/problems/valid-palindrome/)
+Valid Palindrome - [Leetcode - 1752](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/)
 
 ## Problem Description
 
