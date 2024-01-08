@@ -5,6 +5,8 @@ Count Numbers
 
 Given an integer N, write a program to count the number of digits in N.
 
+## Difficulty - Easy
+
 ## Time Complexity
 O(n)
 

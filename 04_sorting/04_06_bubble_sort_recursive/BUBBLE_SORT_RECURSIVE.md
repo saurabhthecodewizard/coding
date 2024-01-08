@@ -5,6 +5,8 @@ Bubble Sort Recursive
 
 Given an array of N integers, write a program to implement the Bubble sorting algorithm with recursion.
 
+## Difficulty - Medium
+
 ## Time Complexity
 O(N2) for the worst and average cases and O(N) for the best case. Here, N = size of the array.
 

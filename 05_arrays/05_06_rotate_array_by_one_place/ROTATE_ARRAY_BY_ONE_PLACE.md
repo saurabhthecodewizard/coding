@@ -5,6 +5,8 @@ Rotate Array by one place
 
 Given an array of N integers, left rotate the array by one place.
 
+## Difficulty - Medium
+
 ## Time Complexity
 O(n)
 

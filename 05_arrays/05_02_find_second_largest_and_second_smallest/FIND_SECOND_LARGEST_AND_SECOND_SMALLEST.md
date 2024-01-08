@@ -5,6 +5,8 @@ Find second smallest and second largest element in an array
 
 Given an array, find the second smallest and second largest element in the array. Print ‘-1’ in the event that either of them doesn’t exist.
 
+## Difficulty - Easy
+
 ## Time Complexity
 O(n)
 

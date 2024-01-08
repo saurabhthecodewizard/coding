@@ -5,6 +5,8 @@ Quick Sort
 
 Given an array of N integers, write a program to implement the Quick sorting algorithm.
 
+## Difficulty - Medium
+
 ## Time Complexity
 O(N*logN), where N = size of the array.
 

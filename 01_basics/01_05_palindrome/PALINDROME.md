@@ -6,6 +6,8 @@ Palindrome Number - [Leetcode - 9](https://leetcode.com/problems/palindrome-numb
 Given an integer x, return true if x is a 
 palindrome, and false otherwise.
 
+## Difficulty - Easy
+
 ## Time Complexity
 O(log n)
 

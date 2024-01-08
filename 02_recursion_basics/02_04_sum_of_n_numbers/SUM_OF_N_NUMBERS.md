@@ -5,6 +5,8 @@ Sum of n numbers
 
 Given a number ‘N’, find out the sum of the first N natural numbers.
 
+## Difficulty - Easy
+
 ## Time Complexity
 O(n)
 

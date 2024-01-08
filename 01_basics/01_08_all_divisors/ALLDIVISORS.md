@@ -5,6 +5,8 @@ All Divisors
 
 Given a number, print all the divisors of the number. A divisor is a number that gives the remainder as zero when divided.
 
+## Difficulty - Easy
+
 ## Time Complexity
 O(sqrt(n)), because every time the loop runs only sqrt(n) times.
 

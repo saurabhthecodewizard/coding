@@ -9,6 +9,8 @@ To obtain the factorial of a number, it has to be multiplied by all the whole nu
 
 Note: X  is always a positive number. 
 
+## Difficulty - Easy
+
 ## Time Complexity
 O(n)
 

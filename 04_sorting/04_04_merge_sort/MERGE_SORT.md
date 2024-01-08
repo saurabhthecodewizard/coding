@@ -5,6 +5,8 @@ Merge Sort
 
 Given an array of N integers, write a program to implement the Merge sorting algorithm.
 
+## Difficulty - Medium
+
 ## Time Complexity
 O(n log n) 
 Reason: At each step, we divide the whole array, for that log n and we assume n steps are taken to get sorted array, so overall time complexity will be nlogn

@@ -5,6 +5,8 @@ Max Consecutive Ones - [Leetcode - 485](https://leetcode.com/problems/max-consec
 
 Given a binary array nums, return the maximum number of consecutive 1's in the array.
 
+## Difficulty - Easy
+
 ## Time Complexity
 O(n)
 

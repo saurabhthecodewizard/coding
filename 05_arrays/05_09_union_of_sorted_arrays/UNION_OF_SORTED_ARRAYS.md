@@ -7,6 +7,8 @@ Given two sorted arrays, arr1, and arr2 of size n and m. Find the union of two s
 
 The union of two arrays can be defined as the common and distinct elements in the two arrays.NOTE: Elements in the union should be in ascending order.
 
+## Difficulty - Medium
+
 ## Time Complexity
 O(n)
 

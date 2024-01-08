@@ -5,6 +5,8 @@ GCD
 
 Find the Greatest Common Divisor of two numbers.
 
+## Difficulty - Easy
+
 ## Time Complexity
 O(log ɸ min(a,b)), where ɸ is 1.61.
 

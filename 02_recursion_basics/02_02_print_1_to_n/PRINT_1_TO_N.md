@@ -5,6 +5,8 @@ Print numbers from 1 to n
 
 Given a number n, print 1 to n numbers.
 
+## Difficulty - Easy
+
 ## Time Complexity
 O(n)
 

@@ -5,6 +5,8 @@ Reverse Array
 
 You are given an array. The task is to reverse the array and print it. 
 
+## Difficulty - Easy
+
 ## Time Complexity
 O(n / 2)
 

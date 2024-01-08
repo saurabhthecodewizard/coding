@@ -5,6 +5,8 @@ Print name n times
 
 Given a number n, print the name n times.
 
+## Difficulty - Easy
+
 ## Time Complexity
 O(n)
 
