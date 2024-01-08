@@ -15,7 +15,7 @@ You can return the answer in any order.
 O(n)
 
 ## Space Complexity
-O(1)
+O(n)
 
 ## Example 1:
 ```
