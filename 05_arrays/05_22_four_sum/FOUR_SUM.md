@@ -1,5 +1,5 @@
 # Problem Name 
-Three Sum - [Leetcode - 15](https://leetcode.com/problems/3sum/)
+Four Sum - [Leetcode - 18](https://leetcode.com/problems/4sum/)
 
 ## Problem Description
 
