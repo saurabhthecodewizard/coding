@@ -1,5 +1,5 @@
 # Problem Name 
-Larget Odd Number In A String - [Leetcode - 1903](https://leetcode.com/problems/largest-odd-number-in-string/)
+Largest Odd Number In A String - [Leetcode - 1903](https://leetcode.com/problems/largest-odd-number-in-string/)
 
 ## Problem Description
 
