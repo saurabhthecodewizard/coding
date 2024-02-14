@@ -33,7 +33,7 @@ public class LowerBound {
         int low = 0;
         int high = arr.length - 1;
         int result = high;
-        while (low < high) {
+        while (low <= high) {
             int mid = low + (high - low) / 2;
             if (arr[mid] >= target) {
                 result = mid;
