@@ -1,13 +1,11 @@
 # Problem Name 
-Upper Bound
+Search Insert Position - [Leetcode - 35](https://leetcode.com/problems/search-insert-position/)
 
 ## Problem Description
 
-Given a sorted array of N integers and an integer x, write a program to find the upper bound of x.
+Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
 
-The upper bound algorithm finds the first or the smallest index in a sorted array where the value at that index is greater than the given key i.e. x.
-
-The upper bound is the smallest index, ind, where arr[ind] > x.
+You must write an algorithm with O(log n) runtime complexity.
 
 ## Difficulty - Medium
 
@@ -19,14 +17,18 @@ O(1)
 
 ## Example 1:
 ```
-Input Format: N = 4, arr[] = {1,2,2,3}, x = 2
-Result: 3
-Explanation: Index 3 is the smallest index such that arr[3] > x
+Input: nums = [1,3,5,6], target = 5
+Output: 2
 ```
 
 ## Example 2:
 ```
-Input Format: N = 6, arr[] = {3,5,8,9,15,19}, x = 9
-Result: 4
-Explanation: Index 4 is the smallest index such that arr[4] > x.
+Input: nums = [1,3,5,6], target = 2
+Output: 1
+```
+
+## Example 3:
+```
+Input: nums = [1,3,5,6], target = 7
+Output: 4
 ```
